@@ -12,7 +12,7 @@
                 "args": [
                     "-c${workspaceRoot}\\odoo.conf"
                 ],
-                "cwd": "${workspaceRoot}",
+                "cwd": "${workspaceRoot}"
             }
-       ],
+       ]
 }
