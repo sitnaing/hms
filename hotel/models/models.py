@@ -8,9 +8,9 @@ class hotel(models.Model):
     _description = 'hotel.hotel'
 
     name = fields.Char()
-#     value = fields.Integer()
-#     value2 = fields.Float(compute="_value_pc", store=True)
-#     description = fields.Text()
+    value = fields.Integer()
+    value2 = fields.Float(compute="_value_pc", store=True)
+    description = fields.Text()
 #
 #     @api.depends('value')
 #     def _value_pc(self):
