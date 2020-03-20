@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models, fields, api
 
 
-# class hotel(models.Model):
-#     _name = 'hotel.hotel'
-#     _description = 'hotel.hotel'
+class hotel(models.Model):
+    _name = 'hotel.hotel'
+    _description = 'hotel.hotel'
 
-#     name = fields.Char()
+    name = fields.Char()
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()
